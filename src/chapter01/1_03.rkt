@@ -12,6 +12,7 @@
           ((and (>= b a) (>= c a)) (sum-of-square b c))))
 
 
+;;; UNITTEST
 (check-equal? (square 5) 25)
 (check-not-equal? (square 6) 26)
 (check-equal? (sum-of-square 3 4) 25)
